@@ -85,7 +85,7 @@ namespace WordScramble
             /// <summary>
             /// The scrambled version of the word.
             /// </summary>
-            string scrambledWord = scrambledWord(word);
+            string scrambledWord = wordProvider.GetScrambledWord(word);
             AnsiConsole.Clear();
             AnsiConsole.MarkupLine("[bold green]Unscramble the word:[/]");
             AnsiConsole.MarkupLine($"[italic yellow]{scrambledWord}[/]");
