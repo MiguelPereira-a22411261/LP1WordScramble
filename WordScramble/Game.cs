@@ -52,11 +52,10 @@ namespace WordScramble
                 switch (choice)
                 {
                     case "Start Game":
-
-                        // ////////// => TO IMPLEMENT <= //////////// //
+                        StartGame();
                         break;
                     case "View Game Stats":
-                        // ////////// => TO IMPLEMENT <= //////////// //
+                        ShowGameStats();
                         break;
                     case "Quit":
                         return;
