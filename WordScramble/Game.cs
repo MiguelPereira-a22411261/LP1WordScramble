@@ -165,6 +165,7 @@ namespace WordScramble
                 string rank = (i + 1).ToString();
                 string word = gameStats[i].Word;
                 string timeTaken = gameStats[i].TimeTaken.ToString();
+                table.AddRow(rank, word, timeTaken);
                 // ////////// => TO IMPLEMENT <= //////////// //
             }
 
