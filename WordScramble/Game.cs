@@ -157,11 +157,15 @@ namespace WordScramble
             {
                 if (gameStats[i] == null)
                 {
-                    // ////////// => TO IMPLEMENT <= //////////// //
+                    continue;
                 }
                 
                 // Add row to table
                 // Table.AddRow() only accepts strings
+
+                string rank = (i + 1).ToString();
+                string word = gameStats[i].Word;
+                string timeTaken = gameStats[i].TimeTaken.ToString();
                 // ////////// => TO IMPLEMENT <= //////////// //
             }
 
